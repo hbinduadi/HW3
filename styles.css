@@ -1,0 +1,145 @@
+body{
+    
+    background-color:azure;
+    background-position: top;
+    
+
+}
+header,section,footer,aside,nav{
+    display: block;
+}
+
+.wrapper{
+    width: 940px;
+    margin: 20px auto 20px auto;
+    border: 2px solid #000000;
+    background-color:azure;
+}
+
+div.header {
+    background-color:deepskyblue;
+    font-style: normal;
+    font: black;
+    text-align: center;
+}
+
+.header img{
+    float: left;
+    width: 90px;
+    height: 90px;
+}
+
+img{
+    width: 100px;
+    height:100px;
+    float: left;
+}
+
+.row{
+    width: 90px;
+    height: 90px;
+    float: left;
+    margin-left: 15px;
+}
+
+li{
+    display: inline;
+    padding: 20px;
+    font-size: 17;
+    text-align: center;
+    
+}
+
+
+}
+p.one{
+    height: 200px;
+    width: 300px;
+    overflow: scroll;
+    float: left;
+    background-color: cornsilk;
+}
+
+p.two{
+    height: 200px;
+    width: 300px;
+    overflow: scroll;
+    float: left;
+    background-color:cornsilk;
+}
+
+ .column1of3 {
+	width: 300px;
+        float: left;
+        margin: 20px;
+       background-color: antiquewhite;
+}
+ .column2of3 {
+               
+                width: 600px;
+                float: left;
+                 margin: 20px;
+                background-color:beige;
+}
+
+.column3of3{
+	    width: 250px;
+        float: left;
+        margin: 20px;
+        background-color:burlywood;
+}
+table{
+    border: 2px;
+    padding: 10px;
+    border-style: solid;
+    
+}
+th,td{
+    padding: 5px;
+    border-spacing: 0px;
+    font-size: 90%;
+    margin: 2px;
+}
+th,td{
+    text-align: left;
+    background-color:antiquewhite;
+    
+}
+fieldset{
+    width: 300px;
+    
+    margin-top: 5px;
+    border: 1px solid #d6d6d6;
+    line-height: 1.6em;
+    padding: 2px;
+}
+legend{
+    font-size: 3
+   /* width: 300px;
+    height: :300px;*/
+    
+}
+input[type="text"]:focus,input[type="text"]:hover{
+    background-color:#d0e2f0;
+    
+}
+input[type="submit"]{
+    background-color: deepskyblue;
+    border-radius: 5px;
+    padding: 5px;
+    margin-top: :10px;
+}
+input[type="submit"]:hover{
+    border: :1px solid #006633;
+    color:#ffffff;
+}
+.submit{
+    width: 310px;
+    text-align: :right;
+}
+
+
+footer{
+    font-size: 80%;
+    padding: 7px 0px 0px 20px;
+}
